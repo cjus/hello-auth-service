@@ -13,14 +13,14 @@
   },
   "dependencies": {
     "fwsp-config": "1.1.5",
-    "hydra-express": "1.1.1",
+    "hydra-express": "1.1.3",
     "fwsp-server-response": "2.2.6",
     "fwsp-jwt-auth": "0.0.8",
     "fwsp-logger": "0.1.4"
   },
   "devDependencies": {
     "chai": "3.5.0",
-    "eslint": "3.16.0",
+    "eslint": "3.19.0",
     "mocha": "3.2.0",
     "superagent": "3.5.2"
   }
