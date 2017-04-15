@@ -1,0 +1,27 @@
+{
+  "name": "hello-auth-service",
+  "version": "0.0.1",
+  "author": "Carlos Justiniano <cjus34@gmail.com>",
+  "private": true,
+  "scripts": {
+    "start": "node hello-auth-service.js",
+    "debug": "node-debug hello-auth-service.js --debug-brk",
+    "test": "mocha specs --reporter spec"
+  },
+  "engines": {
+    "node": ">=6.2.1"
+  },
+  "dependencies": {
+    "fwsp-config": "1.1.5",
+    "hydra-express": "1.1.1",
+    "fwsp-server-response": "2.2.6",
+    "fwsp-jwt-auth": "0.0.8",
+    "fwsp-logger": "0.1.4"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint": "3.16.0",
+    "mocha": "3.2.0",
+    "superagent": "3.5.2"
+  }
+}
