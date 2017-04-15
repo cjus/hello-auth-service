@@ -1,7 +1,7 @@
 .DS_Store
 *.log
-*.pem
-*.rsa
 node_modules
+config/*.pem
+config/*.pub
 config/config.json
-*/public
+

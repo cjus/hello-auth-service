@@ -24,6 +24,7 @@ api.get('/', (req, res) => {
 });
 
 api.get('/secure', hydraExpress.validateJwtToken(), (req, res) => {
+  console.log(req.authToken);
   res.sendOk({greeting: 'Now we can share some secrets!'});
 });
 
